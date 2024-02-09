@@ -4,7 +4,8 @@
 
 
 ## Usage/Examples
-
+### CLI Usage
+```
 usage: cli.py [-h] input_image output_image
 
 Depth Estimation using ZoeDepth
@@ -16,8 +17,10 @@ positional arguments:
 options:
   -h, --help    show this help message and exit
 ```
-
-
+### API Usage
+```
+http://127.0.0.1:8000/predict
+```
 ## Installation
 
 installation depth estimation project with pip
